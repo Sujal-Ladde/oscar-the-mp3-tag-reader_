@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <stdlib.h>
+#include "common.h"
 
 uint8_t size = 0;
 
@@ -54,7 +52,7 @@ void display_deets(FILE *mp3)
 }
 int main()
 {
-    FILE *mp3 = fopen("dj.mp3", "r");
+    FILE *mp3 = fopen("sample.mp3", "r");
     display_deets(mp3);
     fclose(mp3);
 }
