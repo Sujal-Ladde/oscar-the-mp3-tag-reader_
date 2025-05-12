@@ -1,6 +1,5 @@
 #include "common.h"
 
-
 ID3TagMapping tagMappings[NUM_TAGS] = {
     {"AENC", "Audio encryption"},
     {"APIC", "Attached picture"},

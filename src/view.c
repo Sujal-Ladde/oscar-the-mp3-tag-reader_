@@ -44,7 +44,7 @@ Status display_tag(FILE *mp3)
             perror("ERROR: fseek failed while rewinding for APIC");
             return e_failure;
         }
-        if (read_apic(mp3,IMAGE_OUTPUT_PATH) == e_failure)
+        if (read_apic(mp3, IMAGE_OUTPUT_PATH) == e_failure)
         {
             fprintf(stderr, "ERROR: Failed to read APIC tag.\n");
             return e_failure;
@@ -254,7 +254,7 @@ Status read_one_tag(FILE *mp3, const char *given_tag)
  * 13. Closes the image file and frees the allocated memory.
  * 14. Prints a success message.
  */
-Status read_apic(FILE *mp3, const char * output_path)
+Status read_apic(FILE *mp3, const char *output_path)
 {
     if (!mp3)
     {
@@ -358,10 +358,9 @@ Status read_apic(FILE *mp3, const char * output_path)
             return e_failure;
         }
 
-            char image__file[256];
-            strcpy(image__file, output_path);
-            strcat(image__file,discription);
-
+        char image__file[256];
+        strcpy(image__file, output_path);
+        strcat(image__file, discription);
 
         FILE *image = fopen(image__file, "wb");
         if (!image)

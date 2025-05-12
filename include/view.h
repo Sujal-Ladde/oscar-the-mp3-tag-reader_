@@ -12,7 +12,7 @@ Status display_tag(FILE *mp3);
 Status read_one_tag(FILE *mp3, const char *tag);
 // Searches for and displays the content of a specific ID3v2 tag.
 
-Status read_apic(FILE *mp3, const char * output_path);
+Status read_apic(FILE *mp3, const char *output_path);
 // Reads and extracts the data of an APIC (Attached Picture) ID3v2 tag.
 
 #endif

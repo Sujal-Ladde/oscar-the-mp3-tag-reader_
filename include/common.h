@@ -12,10 +12,9 @@
 
 #define MAX_PATH_LENGTH 256 // Define a maximum length for file paths
 
-#define IMAGE_INPUT_PATH  "data/image_input/"
+#define IMAGE_INPUT_PATH "data/image_input/"
 #define IMAGE_OUTPUT_PATH "data/image_output/"
-#define MP3_FILES_PATH    "data/mp3_files/"
-
+#define MP3_FILES_PATH "data/mp3_files/"
 
 typedef struct
 {

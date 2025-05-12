@@ -159,11 +159,11 @@ Status main(int argc, char *argv[])
                 else
                 {
 
-                    if(strncmp(argv[i],"APIC",4)==0){
-                        read_apic(mp3,IMAGE_OUTPUT_PATH);
+                    if (strncmp(argv[i], "APIC", 4) == 0)
+                    {
+                        read_apic(mp3, IMAGE_OUTPUT_PATH);
                     }
                     read_one_tag(mp3, tagMappings[flag_tag].tag);
-
                 }
             }
 
