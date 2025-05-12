@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "common.h": "c",
+        "edit.h": "c",
+        "stdint.h": "c",
+        "array": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "stdio.h": "c",
+        "errno.h": "c"
+    }
+}
